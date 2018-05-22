@@ -1,5 +1,6 @@
 package twitter_status_monitor.services
 
+import akka.actor.Scheduler
 import slick.jdbc.{JdbcBackend, JdbcProfile}
 import twitter_status_monitor.common.concurrent.ApplicationContext
 import twitter_status_monitor.common.db.models.{TweetModel, TweetStatsModel}
@@ -8,6 +9,7 @@ import twitter_status_monitor.http.TwitterApi
 import twitter_status_monitor.{Tweet, TweetStatistic}
 
 import scala.concurrent.Future
+import scala.concurrent.duration.Duration
 
 trait TweetService {
   def addTweet(tweet: Tweet): Future[Option[Tweet]]
@@ -23,9 +25,11 @@ trait TweetService {
 class TweetServiceImpl(val profile: JdbcProfile,
                        db: JdbcBackend.Database,
                        twitterApi: TwitterApi)
+                      (implicit scheduler: Scheduler)
   extends TweetService with ApplicationContext with TweetModel with TweetStatsModel {
 
   import profile.api._
+  //override def preStart() = scheduler.schedule(Duration.Zero, duration, target, event)
 
   override def addTweet(tweet: Tweet): Future[Option[Tweet]] = {
     db.run {
