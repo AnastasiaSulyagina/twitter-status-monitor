@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=twitter_monitoring
+    ports:
+      - 5431:5432
+    expose:
+      - "5432"
+    volumes:
+      - ./db-init/:/docker-entrypoint-initdb.d/
+  accesscontrol:
+    image: twitter-status-monitor:0.1
+    ports:
+      - 8080:8080
