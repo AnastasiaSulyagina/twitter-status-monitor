@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="twitter-status-monitor"
+		module="twitter-status-monitor$sources"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, it, compile-internal, runtime-internal, test-internal, it-internal, plugin, pom, scala-tool"
+		date="20180522154743"/>
+	<dependencies>
+		<module organisation="org.testcontainers" name="postgresql">
+			<revision name="1.7.2" status="release" pubdate="20180430193328" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://testcontainers.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2660" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/postgresql/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testcontainers/postgresql/1.7.2/postgresql-1.7.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="postgresql" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2098" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/postgresql/srcs/postgresql-1.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testcontainers/postgresql/1.7.2/postgresql-1.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamock" name="scalamock-scalatest-support_2.12">
+			<revision name="3.6.0" status="release" pubdate="20170506230650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalamock.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3106" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalamock/scalamock-scalatest-support_2.12/ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.12/3.6.0/scalamock-scalatest-support_2.12-3.6.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalamock-scalatest-support_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10285" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalamock/scalamock-scalatest-support_2.12/srcs/scalamock-scalatest-support_2.12-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.12/3.6.0/scalamock-scalatest-support_2.12-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.testcontainers" name="jdbc">
+			<revision name="1.7.2" status="release" pubdate="20180430193332" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://testcontainers.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2660" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/jdbc/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testcontainers/jdbc/1.7.2/jdbc-1.7.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jdbc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12072" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/jdbc/srcs/jdbc-1.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testcontainers/jdbc/1.7.2/jdbc-1.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamock" name="scalamock-core_2.12">
+			<revision name="3.6.0" status="release" pubdate="20170506230628" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalamock.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalamock/scalamock-core_2.12/ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.12/3.6.0/scalamock-core_2.12-3.6.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalamock-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64246" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalamock/scalamock-core_2.12/srcs/scalamock-core_2.12-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.12/3.6.0/scalamock-core_2.12-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.12">
+			<revision name="2.5.12" status="release" pubdate="20180413085039" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3489" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.12/2.5.12/akka-stream-testkit_2.12-2.5.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12"/>
+				<artifacts>
+					<artifact name="akka-stream-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9700" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.12/srcs/akka-stream-testkit_2.12-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.12/2.5.12/akka-stream-testkit_2.12-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.12">
+			<revision name="2.5.12" status="release" pubdate="20180413084721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3693" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.12/akka-testkit_2.12-2.5.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43580" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.12/akka-testkit_2.12-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.testcontainers" name="database-commons">
+			<revision name="1.7.2" status="release" pubdate="20180430193330" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://testcontainers.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2682" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/database-commons/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testcontainers/database-commons/1.7.2/database-commons-1.7.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="database-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5942" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/database-commons/srcs/database-commons-1.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testcontainers/database-commons/1.7.2/database-commons-1.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.testcontainers" name="testcontainers">
+			<revision name="1.7.2" status="release" pubdate="20180430193345" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://testcontainers.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="40">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3984" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/testcontainers/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testcontainers/testcontainers/1.7.2/testcontainers-1.7.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="testcontainers" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123860" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.testcontainers/testcontainers/srcs/testcontainers-1.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/testcontainers/testcontainers/1.7.2/testcontainers-1.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rnorth.visible-assertions" name="visible-assertions">
+			<revision name="2.1.0" status="release" pubdate="20171112170432" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/rnorth/visible-assertions" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3181" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.rnorth.visible-assertions/visible-assertions/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rnorth/visible-assertions/visible-assertions/2.1.0/visible-assertions-2.1.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="visible-assertions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7495" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.rnorth.visible-assertions/visible-assertions/srcs/visible-assertions-2.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rnorth/visible-assertions/visible-assertions/2.1.0/visible-assertions-2.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.5.0" status="release" pubdate="20170913232806" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2441" time="0" location="/Users/n.v.melnikov/.ivy2/cache/net.java.dev.jna/jna/ivy-4.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146994" time="0" location="/Users/n.v.melnikov/.ivy2/cache/net.java.dev.jna/jna/srcs/jna-4.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rnorth.duct-tape" name="duct-tape">
+			<revision name="1.0.7" status="release" pubdate="20180417115020" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/rnorth/${project.artifactId}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3632" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.rnorth.duct-tape/duct-tape/ivy-1.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.0.7" rev-constraint-default="1.0.7" rev-constraint-dynamic="1.0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="duct-tape" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15194" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.rnorth.duct-tape/duct-tape/srcs/duct-tape-1.0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rnorth/duct-tape/duct-tape/1.0.7/duct-tape-1.0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.3.0" status="release" pubdate="20170731142724" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="CDDL 1.1" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<license name="GPL2 w/ CPE" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<metadata-artifact status="no" details="" size="3796" time="0" location="/Users/n.v.melnikov/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266061" time="0" location="/Users/n.v.melnikov/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.15" status="release" pubdate="20171014162852" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13136" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.15/commons-compress-1.15.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="512437" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.15-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.15/commons-compress-1.15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.6" status="release" pubdate="20170620182837" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3457" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.objenesis/objenesis/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57063" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170331075548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3268" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18102" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api">
+			<revision name="1.3.1" status="release" pubdate="20170913152405" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://github.com/javaee/javax.annotation/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="4143" time="0" location="/Users/n.v.melnikov/.ivy2/cache/javax.annotation/javax.annotation-api/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42517" time="0" location="/Users/n.v.melnikov/.ivy2/cache/javax.annotation/javax.annotation-api/srcs/javax.annotation-api-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains" name="annotations">
+			<revision name="15.0" status="release" pubdate="20151015115614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jetbrains.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2908" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.jetbrains/annotations/ivy-15.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="15.0" rev-constraint-default="15.0" rev-constraint-dynamic="15.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18486" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.jetbrains/annotations/srcs/annotations-15.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-testkit_2.12">
+			<revision name="10.1.1" status="release" pubdate="20180402100854" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3606" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.1.1/akka-http-testkit_2.12-10.1.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
+				<artifacts>
+					<artifact name="akka-http-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19043" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http-testkit_2.12/srcs/akka-http-testkit_2.12-10.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-testkit_2.12/10.1.1/akka-http-testkit_2.12-10.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427113633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2637" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="587933" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.mattbertolini" name="liquibase-slf4j">
+			<revision name="2.0.0" status="release" pubdate="20151217053430" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mattbertolini/liquibase-slf4j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.mattbertolini/liquibase-slf4j/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/mattbertolini/liquibase-slf4j/2.0.0/liquibase-slf4j-2.0.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="liquibase-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2403" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.mattbertolini/liquibase-slf4j/srcs/liquibase-slf4j-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/mattbertolini/liquibase-slf4j/2.0.0/liquibase-slf4j-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick-hikaricp_2.12">
+			<revision name="3.2.3" status="release" pubdate="20180323211049" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.3/slick-hikaricp_2.12-3.2.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.2.3" rev-constraint-default="3.2.3" rev-constraint-dynamic="3.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slick-hikaricp_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1689" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/srcs/slick-hikaricp_2.12-3.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.3/slick-hikaricp_2.12-3.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="2.5.1" status="release" pubdate="20160919144722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7421" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="HikariCP" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70281" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.zaxxer/HikariCP/srcs/HikariCP-2.5.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-jackson_2.12">
+			<revision name="3.5.3" status="release" pubdate="20170729031130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-jackson_2.12/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.5.3/json4s-jackson_2.12-3.5.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json4s-jackson_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7294" time="1049" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-jackson_2.12/srcs/json4s-jackson_2.12-3.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.12/3.5.3/json4s-jackson_2.12-3.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-core_2.12">
+			<revision name="3.5.3" status="release" pubdate="20170729031108" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3249" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-core_2.12/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.5.3/json4s-core_2.12-3.5.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json4s-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="42960" time="1136" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-core_2.12/srcs/json4s-core_2.12-3.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-core_2.12/3.5.3/json4s-core_2.12-3.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-scalap_2.12">
+			<revision name="3.5.3" status="release" pubdate="20170729031056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-scalap_2.12/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.5.3/json4s-scalap_2.12-3.5.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json4s-scalap_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18582" time="1109" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-scalap_2.12/srcs/json4s-scalap_2.12-3.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.12/3.5.3/json4s-scalap_2.12-3.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tethys-json" name="tethys_2.12">
+			<revision name="0.6.3" status="release" pubdate="20180417062331" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tethys-json/tethys" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3243" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys_2.12/ivy-0.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tethys-json/tethys_2.12/0.6.3/tethys_2.12-0.6.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.6.3" rev-constraint-default="0.6.3" rev-constraint-dynamic="0.6.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tethys_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys_2.12/srcs/tethys_2.12-0.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tethys-json/tethys_2.12/0.6.3/tethys_2.12-0.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.softwaremill.macwire" name="macros_2.12">
+			<revision name="2.3.0" status="release" pubdate="20170202145508" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.softwaremill.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="Apache2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.softwaremill.macwire/macros_2.12/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12473" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.softwaremill.macwire/macros_2.12/srcs/macros_2.12-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-nop">
+			<revision name="1.6.4" status="release" pubdate="20111101024556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4291" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-nop" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4394" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-nop/srcs/slf4j-nop-1.6.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tethys-json" name="tethys-jackson-backend_2.12">
+			<revision name="0.6.3" status="release" pubdate="20180417062342" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tethys-json/tethys" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3125" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-jackson-backend_2.12/ivy-0.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tethys-json/tethys-jackson-backend_2.12/0.6.3/tethys-jackson-backend_2.12-0.6.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.6.3" rev-constraint-default="0.6.3" rev-constraint-dynamic="0.6.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tethys-jackson-backend_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2805" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-jackson-backend_2.12/srcs/tethys-jackson-backend_2.12-0.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tethys-json/tethys-jackson-backend_2.12/0.6.3/tethys-jackson-backend_2.12-0.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.1" status="release" pubdate="20170908034832" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7656" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="331800" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.1/jackson-core-2.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101172105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/srcs/scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tethys-json" name="tethys-macro-derivation_2.12">
+			<revision name="0.6.3" status="release" pubdate="20180417062346" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tethys-json/tethys" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3123" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-macro-derivation_2.12/ivy-0.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tethys-json/tethys-macro-derivation_2.12/0.6.3/tethys-macro-derivation_2.12-0.6.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.6.3" rev-constraint-default="0.6.3" rev-constraint-dynamic="0.6.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tethys-macro-derivation_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25533" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-macro-derivation_2.12/srcs/tethys-macro-derivation_2.12-0.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tethys-json/tethys-macro-derivation_2.12/0.6.3/tethys-macro-derivation_2.12-0.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tethys-json" name="tethys-core_2.12">
+			<revision name="0.6.3" status="release" pubdate="20180417062335" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tethys-json/tethys" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-core_2.12/ivy-0.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tethys-json/tethys-core_2.12/0.6.3/tethys-core_2.12-0.6.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.6.3" rev-constraint-default="0.6.3" rev-constraint-dynamic="0.6.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tethys-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23005" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.tethys-json/tethys-core_2.12/srcs/tethys-core_2.12-0.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tethys-json/tethys-core_2.12/0.6.3/tethys-core_2.12-0.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.4" status="release" pubdate="20161014065229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8156" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.8.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.8.4" rev-constraint-default="2.8.4" rev-constraint-dynamic="2.8.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="918621" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.8.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.0" status="release" pubdate="20160704082053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57510" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.12">
+			<revision name="3.2.3" status="release" pubdate="20180323211111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.2.3" rev-constraint-default="3.2.3" rev-constraint-dynamic="3.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slick_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="322913" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.slick/slick_2.12/srcs/slick_2.12-3.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="postgresql" name="postgresql">
+			<revision name="9.1-901-1.jdbc4" status="release" pubdate="20111219035532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2477" time="0" location="/Users/n.v.melnikov/.ivy2/cache/postgresql/postgresql/ivy-9.1-901-1.jdbc4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="9.1-901-1.jdbc4" rev-constraint-default="9.1-901-1.jdbc4" rev-constraint-dynamic="9.1-901-1.jdbc4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="postgresql" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="672849" time="0" location="/Users/n.v.melnikov/.ivy2/cache/postgresql/postgresql/srcs/postgresql-9.1-901-1.jdbc4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.12">
+			<revision name="10.1.1" status="release" pubdate="20180402101211" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3108" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
+				<artifacts>
+					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200470" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.1/akka-http_2.12-10.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.1.1" status="release" pubdate="20180402101157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3735" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413652" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.1/akka-http-core_2.12-10.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.1.1" status="release" pubdate="20180402101214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3111" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="10.1.1" rev-constraint-default="10.1.1" rev-constraint-dynamic="10.1.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/current/"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63743" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.1/akka-parsing_2.12-10.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.5.12" status="release" pubdate="20180413084801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3539" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="534426" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.12/akka-stream_2.12-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.3" status="release" pubdate="20180327193035" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3727" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49640" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.3/ssl-config-core_2.12-0.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.0" status="release" pubdate="20180202001040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.0/scala-parser-combinators_2.12-1.1.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46978" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.0/scala-parser-combinators_2.12-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171218230638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.12">
+			<revision name="2.5.12" status="release" pubdate="20180413084504" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276924" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.12/akka-protobuf_2.12-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.12" status="release" pubdate="20180413084445" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.5.12" rev-constraint-default="2.5.12" rev-constraint-dynamic="2.5.12" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.12"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="529711" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.12/akka-actor_2.12-2.5.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030011227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.2" status="release" pubdate="20171006170218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe/config/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172766" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427114006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json4s" name="json4s-ast_2.12">
+			<revision name="3.5.3" status="release" pubdate="20170729031043" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2648" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-ast_2.12/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.5.3/json4s-ast_2.12-3.5.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json4s-ast_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6975" time="1045" location="/Users/n.v.melnikov/.ivy2/cache/org.json4s/json4s-ast_2.12/srcs/json4s-ast_2.12-3.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.12/3.5.3/json4s-ast_2.12-3.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826142928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.liquibase" name="liquibase-core">
+			<revision name="3.5.3" status="release" pubdate="20161013222949" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11730" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.liquibase/liquibase-core/ivy-3.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.5.3" rev-constraint-default="3.5.3" rev-constraint-dynamic="3.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="liquibase-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1297696" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.liquibase/liquibase-core/srcs/liquibase-core-3.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.17" status="release" pubdate="20160219161344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3956" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.yaml/snakeyaml/ivy-1.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.17" rev-constraint-default="1.17" rev-constraint-dynamic="1.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171312" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.7.2" status="release" pubdate="20170721163837" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3354" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/ivy-3.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9121" time="0" location="/Users/n.v.melnikov/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/srcs/scala-logging_2.12-3.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.12">
+			<revision name="3.0.3" status="release" pubdate="20170420123153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="46">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4901" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1643700" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.3/scalatest_2.12-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.3" status="release" pubdate="20170420122901" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.3/scalactic_2.12-3.0.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201082" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.3/scalactic_2.12-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331222753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/Users/n.v.melnikov/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="230201" time="0" location="/Users/n.v.melnikov/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-ext">
+			<revision name="1.7.25" status="release" pubdate="20170316193722" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5729" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-ext/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-ext" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43520" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-ext/srcs/slf4j-ext-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331222715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/Users/n.v.melnikov/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="399141" time="0" location="/Users/n.v.melnikov/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316193632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="18">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204191743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/Users/n.v.melnikov/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200355" time="0" location="/Users/n.v.melnikov/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120710010802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2617" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="twitter-status-monitor" name="twitter-status-monitor$sources" conf="test, compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/Users/n.v.melnikov/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
