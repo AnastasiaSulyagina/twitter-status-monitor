@@ -9,7 +9,7 @@ trait TweetStatsModel extends DatabaseModel with CustomMapping {
   import profile.api._
 
   class TweetStats(tag: Tag) extends Table[TweetStatistic](tag, "tweet_stats") {
-    def tweetId = column[Long]("tweet_id")
+    def tweetId = column[String]("tweet_id")
 
     def favorite_count = column[Int]("likes")
 

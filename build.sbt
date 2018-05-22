@@ -1,5 +1,3 @@
-//import sbtdocker.DockerKeys._
-
 name := "twitter-status-monitor"
 
 version := "0.1"
@@ -8,20 +6,12 @@ scalaVersion := "2.12.6"
 
 val ItAndTest = "it,test"
 
-//updateConfiguration in updateSbtClassifiers := (updateConfiguration in updateSbtClassifiers).value.withMissingOk(true)
-//
-//resolvers ++= Seq(
-//  "bintray-sbt-plugin-releases" at "http://dl.bintray.com/content/sbt/sbt-plugin-releases",
-//  "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
-//  Resolver.url("bintray-sbt-plugins", url("https://dl.bintray.com/sbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)
-//)
-
 lazy val app = (project in file("."))
   .configs(IntegrationTest)
-//  .enablePlugins(
-//    sbtdocker.DockerPlugin,
-//    JavaAppPackaging,
-//  )
+  .enablePlugins(
+    sbtdocker.DockerPlugin,
+    JavaAppPackaging,
+  )
   .settings(Defaults.itSettings)
   .settings(
     libraryDependencies ++= Seq(
@@ -60,17 +50,17 @@ lazy val app = (project in file("."))
       "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % ItAndTest
     )
   )
-//  .settings(
-//    dockerfile in docker := {
-//      val appDir: File = stage.value
-//      val targetDir = s"/opt/${name.value}"
-//
-//      new Dockerfile {
-//        from("java:openjdk-8-jre")
-//        expose(8080)
-//        copy(appDir, targetDir)
-//        workDir(targetDir)
-//        entryPoint(s"$targetDir/bin/${executableScriptName.value}")
-//      }
-//    }
-//  )
+  .settings(
+    dockerfile in docker := {
+      val appDir: File = stage.value
+      val targetDir = s"/opt/${name.value}"
+
+      new Dockerfile {
+        from("java:openjdk-8-jre")
+        expose(8080)
+        copy(appDir, targetDir)
+        workDir(targetDir)
+        entryPoint(s"$targetDir/bin/${executableScriptName.value}")
+      }
+    }
+  )

@@ -5,9 +5,12 @@ import java.time.Instant
 import tethys._
 import tethys.derivation.semiauto._
 import twitter_status_monitor.server.controllers.TweetController.{AddTweetRequest, AddTweetResponse, GetTweetStatsRequest, GetTweetStatsResponse}
-import twitter_status_monitor.{Tweet, TweetStatistic}
+import twitter_status_monitor.{Tweet, TweetStatistic, User}
 
 trait ApplicationProtocol {
+  implicit val userReader: JsonReader[User] = jsonReader[User]
+  implicit val userWriter: JsonWriter[User] = jsonWriter[User]
+
   implicit val instantJsonReader: JsonReader[Instant] = JsonReader.stringReader.map(Instant.parse)
   implicit val instantJsonWriter: JsonWriter[Instant] = JsonWriter.stringWriter.contramap(_.toString)
 
