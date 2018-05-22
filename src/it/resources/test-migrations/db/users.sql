@@ -1,0 +1,1 @@
+INSERT INTO "users" (login, first_name, last_name, status) VALUES ('test@test.com', NULL, NULL, 'home');
