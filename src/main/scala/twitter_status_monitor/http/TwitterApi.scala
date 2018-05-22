@@ -1,28 +1,27 @@
 package twitter_status_monitor.http
 
 
-import akka.http.javadsl.model.headers.Authorization
-import akka.http.scaladsl.model.headers.{Authorization, RawHeader}
-
-import scala.concurrent.{Await, ExecutionContext, Future}
-import akka.http.scaladsl.model.{HttpEntity, HttpMethods, HttpRequest, headers}
-import twitter_status_monitor.{Token, Tweet, TweetStatistic}
+import akka.http.scaladsl.model.headers.RawHeader
+import akka.http.scaladsl.model.{HttpEntity, HttpMethods, HttpRequest}
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
+import twitter_status_monitor.common.concurrent.ApplicationContext
+import twitter_status_monitor.{Token, Tweet, TweetStatistic}
 
 import scala.concurrent.duration.Duration
+import scala.concurrent.{Await, Future}
 
 trait TwitterApi {
-  def auth(): Future[String]
+  def auth(): Future[Option[Token]]
 
   def getTweet(id: String): Future[Option[Tweet]]
 
   def getStats(id: String): Future[Option[TweetStatistic]]
 }
 
-class RestTradingApi(httpClient: HttpClient)
-                    (implicit ec: ExecutionContext)
-  extends TwitterApi {
+class TwitterApiImpl(httpClient: HttpClient) extends TwitterApi with ApplicationContext {
+
+  implicit val formats = org.json4s.DefaultFormats
 
   val token = Await.result(auth().map(_.get.accessToken), Duration.Inf)
 

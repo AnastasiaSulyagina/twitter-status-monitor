@@ -1,13 +1,11 @@
 package twitter_status_monitor.services
 
-import java.time.Instant
-
 import slick.jdbc.{JdbcBackend, JdbcProfile}
-import twitter_status_monitor.{Tweet, TweetStatistic}
 import twitter_status_monitor.common.concurrent.ApplicationContext
-import twitter_status_monitor.common.db.{EntityAlreadyExistsException, EntityDoesNotExistException}
 import twitter_status_monitor.common.db.models.{TweetModel, TweetStatsModel}
+import twitter_status_monitor.common.db.{EntityAlreadyExistsException, EntityDoesNotExistException}
 import twitter_status_monitor.http.TwitterApi
+import twitter_status_monitor.{Tweet, TweetStatistic}
 
 import scala.concurrent.Future
 

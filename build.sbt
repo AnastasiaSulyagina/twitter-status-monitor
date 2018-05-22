@@ -1,5 +1,3 @@
-//import sbtdocker.DockerKeys._
-
 name := "twitter-status-monitor"
 
 version := "0.1"

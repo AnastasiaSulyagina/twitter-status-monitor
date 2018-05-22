@@ -2,6 +2,7 @@ package twitter_status_monitor.common.db.models
 
 import java.time.Instant
 
+import twitter_status_monitor.common.db.CustomMapping
 import twitter_status_monitor.{Tweet, User}
 
 /**
@@ -13,11 +14,11 @@ import twitter_status_monitor.{Tweet, User}
   *    - Количество подписчиков
   *    - Время публикации твитта (неизменяемое)
   */
-trait TweetModel extends DatabaseModel {
+trait TweetModel extends DatabaseModel with CustomMapping {
   import profile.api._
 
   class Tweets(tag: Tag) extends Table[Tweet](tag, "tweet") {
-    def id = column[Long]("id", O.PrimaryKey)
+    def id = column[String]("id", O.PrimaryKey)
     def created_at = column[Instant]("created_at")
     def archived = column[Boolean]("archived")
 
